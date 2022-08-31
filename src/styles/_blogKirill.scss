@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.blogStart {
+  width: 1920px;
+  height: 575px;
+  background-image: url("~assets/img/bg_4.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogStart h1 {
+  text-transform: uppercase;
+  color: azure;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blogStart p{
+  color: #454547;
+}
+
+.blogStartImg {
+  width: 1920px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blogStartImg img {
+  width: auto;
+  height: 206px;
+}
+
+.blogEnd {
+  width: 1920px;
+  height: 662px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blogEnd img {
+  width: 480px;
+  height: auto;
+
+}
+.blogFinish img {
+  width: 1920px;
+  height: 662px;
+}
