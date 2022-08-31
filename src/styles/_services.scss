@@ -1,0 +1,35 @@
+.head-services {
+  display: flex;
+  .contact-services {
+    display: flex;
+    background-color: #000000;
+    .phone-services {
+      background-image: url("~/public/img/icons-phone.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-size: 20px 20px;
+    }
+    .locate-services {
+      background-image: url("~/public/img/icons-compas.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-size: 20px 20px;
+    }
+    .open-services {
+      background-image: url("~/public/img/icons-whatch.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-size: 20px 20px;
+    }
+    .link-services {
+      color: #fefefe;
+      text-decoration: none;
+    }
+    .text-service {
+      color: #5c5c5c;
+    }
+  }
+  .social-services {
+    background-color: #fac564;
+  }
+}
