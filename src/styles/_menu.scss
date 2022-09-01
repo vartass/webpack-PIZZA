@@ -3,33 +3,34 @@ $color-grey: #7a7a7a;
 $color-gold: #d69e4c;
 
 .menu {
+  background-image: url('~assets/img/bg_4.jpg');
+  background-size: cover;
+
   .gridPizzaMenu {
     height: 840px;
-    background-image: url('~assets/img/bg_4.jpg');
-    background-size: cover;
   }
 
   .titlePage {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    h3 {
+      margin: 80px 0 30px 0;
+      color: $color-white;
+      font-size: 40px;
+    }
+
+    p {
+      margin: 0;
+      text-align: center;
+      width: 640px;
+      color: $color-grey;
+      font-size: 20px;
+    }
   }
 
-  .titlePage h3 {
-    margin: 80px 0 30px 0;
-    color: $color-white;
-    font-size: 40px;
-  }
-
-  .titlePage p {
-    margin: 0;
-    text-align: center;
-    width: 640px;
-    color: $color-grey;
-    font-size: 20px;
-  }
-
-  .pizzaName {
+  .pizzaNameGrid {
     display: grid;
     grid-template-columns: repeat(6, 315px);
     grid-template-rows: 270px 270px;
@@ -45,41 +46,115 @@ $color-gold: #d69e4c;
   .pizzaDescription {
     background: rgb(0, 0, 0, 0.3);
     margin: 0;
-  }
 
-  .pizzaDescription h4 {
-    margin-left: 25px;
-    font-size: 25px;
-    color: $color-white;
-  }
+    h4 {
+      margin-left: 25px;
+      font-size: 25px;
+      color: $color-white;
+    }
 
-  .pizzaDescription p {
-    margin-left: 25px;
-    font-size: 17px;
-    color: $color-grey;
+    p {
+      margin-left: 25px;
+      font-size: 17px;
+      color: $color-grey;
+    }
   }
 
   .price {
     display: flex;
     align-items: center;
     width: 70px;
+    margin-top: 45px;
+
+    p {
+      width: 50px;
+      color: $color-gold;
+    }
+
+    button {
+      height: 30px;
+      padding: 0 15px;
+      border: 1px solid white;
+      background: none;
+      margin-left: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $color-white;
+    }
   }
 
-  .price p {
-    width: 50px;
-    color: $color-gold;
+  .listPizzaMenu {
+    height: 855px;
   }
 
-  .price button {
-    height: 30px;
-    padding: 0 15px;
-    border: 1px solid white;
-    background: none;
-    margin-left: 15px;
+  .elem {
+    margin-bottom: 25px;
   }
 
-  .price a{
-    text-decoration: none;
-    color: $color-white;
+  .pizzaNameList {
+    width: 1260px;
+    height: 540px;
+    margin-left: 320px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 610px);
+    grid-column-gap: 40px;
+    grid-template-rows: repeat(4, 70px);
+    grid-row-gap: 20px;
   }
+
+  .pizzaMenuItem {
+    display: flex;
+    align-items: center;
+    width: 610px;
+    height: 70px;
+
+    img {
+      width: 80px;
+      height: 70px;
+      border-radius: 40px;
+    }
+  }
+
+  .itemDescription {
+    margin-left: 20px;
+
+    h4 {
+      margin: 0;
+      color: $color-white;
+      opacity: 0.8;
+      font-size: 20px;
+    }
+
+    h4:after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 450px;
+      height: 1px;
+      border-bottom: 2px dotted #d69e4c;
+      position: relative;
+      bottom: 5px;
+      margin-right: 20px;
+    }
+
+    p {
+      color: $color-grey;
+      font-size: 15px;
+      margin: 0;
+    }
+
+    span {
+      color: $color-gold;
+      font-size: 15px;
+    }
+
+    .itemName {
+      display: flex;
+      align-items: center;
+    }
+  }
+
 }
