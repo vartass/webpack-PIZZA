@@ -37,10 +37,31 @@
   .social-services {
     width: 670px;
     background-color: #fac564;
-    .twitter-services{
+    display: flex;
+    align-items: center;
+    .twitter-services {
       background-image: url("~/public/img/icons8-twitter-24.png");
       background-repeat: no-repeat;
       background-size: 20px 20px;
+      padding: 20px 10px;
+      margin-top: 20px;
+      margin-left: 70px;
+    }
+    .facebook-services {
+      background-image: url("~/public/img/icons8-facebook-f-48.png");
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      padding: 20px 10px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .instagram-services {
+      background-image: url("~/public/img/icons8-instagram-24.png");
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      padding: 20px 10px;
+      margin-top: 20px;
+      margin-left: 20px;
     }
   }
 }
