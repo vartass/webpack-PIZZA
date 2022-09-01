@@ -6,3 +6,4 @@ import webpackLogo from '@/images/webpack-logo.svg'
 
 // Test import of styles
 import '@/styles/index.scss'
+import '@/js/shoppingСart'
