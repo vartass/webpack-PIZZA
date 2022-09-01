@@ -70,6 +70,10 @@ $color-gold: #d69e4c;
       width: 50px;
       color: $color-gold;
     }
+    p:before{
+      content: '\0024';
+
+    }
 
     button {
       height: 30px;
