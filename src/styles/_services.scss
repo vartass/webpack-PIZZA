@@ -1,0 +1,77 @@
+.head-services {
+  display: flex;
+  justify-content: center;
+  .contact-services {
+    display: flex;
+    background-color: #000000;
+    width: 1230px;
+    justify-content: center;
+    padding-top: 38px;
+    .phone-services {
+      background-image: url("~/public/img/icons-phone.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-size: 20px 20px;
+    }
+    .locate-services {
+      background-image: url("~/public/img/icons-compas.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-size: 20px 20px;
+    }
+    .open-services {
+      background-image: url("~/public/img/icons-whatch.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-size: 20px 20px;
+    }
+    .link-services {
+      color: #fefefe;
+      text-decoration: none;
+    }
+    .text-service {
+      color: #5c5c5c;
+    }
+  }
+
+  .social-services {
+    width: 670px;
+    background-color: #fac564;
+    .twitter-services{
+      background-image: url("~/public/img/icons8-twitter-24.png");
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+    }
+  }
+}
+
+.main-services {
+  display: flex;
+  .img-about-services-1 {
+    width: 946px;
+    max-height: 470px;
+  }
+  .about-services {
+    background-image: url("~/public/img/bg_4.jpg");
+    background-repeat: no-repeat;
+    width: 55%;
+    max-height: 470px;
+    .caption-h3{
+      font-size: 34px;
+      font-weight: 200;
+      margin: 0;
+      padding: 100px 0 0 95px;
+      color: #ffffff;
+      text-transform: uppercase;
+      span {
+        color: #fac564;
+      }
+    }
+    .title {
+      line-height: 30px;
+      margin: 0;
+      padding: 48px 100px 0 95px;
+      color: #5c5c5c;
+    }
+  }
+}
