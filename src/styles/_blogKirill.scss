@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .material-symbols-outlined{
   color: white;
 }
@@ -55,10 +61,13 @@
 .blogEnd {
   width: 1900px;
   height: 310px;
-  display: flex;
-  position: absolute;
-  z-index: 1;
-  top: 940px
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  justify-content: end;
+  //position: absolute;
+  z-index: 2;
+  //top: 940px
 }
 
 .blogEnd img {
@@ -74,17 +83,25 @@
 }
 
 .blogFinish {
-  position: absolute;
+  //position: absolute;
+  position: relative;
+  display: grid;
+  z-index: 1;
 }
 
 .blogFinishYellow {
   width: 1900px;
   height: 362px;
-  position: absolute;
-  top: 300px;
+  //position: absolute;
+  //top: 300px;
   background-color: rgba(45, 34, 12, 0.61);
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  z-index: 3;
+  //align-items: center;
 }
 
 .blogFinishYellow div {
