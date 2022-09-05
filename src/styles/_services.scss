@@ -132,6 +132,10 @@
     width: 370px;
     text-align: center;
     line-height: 30px;
+    margin-right: 60px;
+    &:last-child{
+      margin-right: 0;
+    }
     .icon-our-1{
       background-image: url("~/public/img/icon-1.png");
       background-repeat: no-repeat;
