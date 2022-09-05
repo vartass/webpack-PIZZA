@@ -8,7 +8,7 @@
     justify-content: center;
     padding-top: 38px;
     .phone-services {
-      background-image: url("~/public/img/icons-phone.png");
+      background-image: url("~/public/img/icons-phone-2.png");
       background-repeat: no-repeat;
       padding-left: 30px;
       padding-right: 10px;
@@ -16,14 +16,14 @@
       width: 235px;
     }
     .locate-services {
-      background-image: url("~/public/img/icons-compas.png");
+      background-image: url("~/public/img/icons-compas-2.png");
       background-repeat: no-repeat;
       padding-left: 30px;
       padding-right: 40px;
       background-size: 20px 20px;
     }
     .open-services {
-      background-image: url("~/public/img/icons-whatch.png");
+      background-image: url("~/public/img/icons-whatch-2.png");
       background-repeat: no-repeat;
       padding-left: 30px;
       background-size: 20px 20px;
@@ -88,6 +88,9 @@
       text-transform: uppercase;
       span {
         color: #fac564;
+        background-image: url("~/public/img/pizza-icon.png");
+        background-repeat: no-repeat;
+        padding-left: 35px;
       }
     }
     .title {
