@@ -1,0 +1,165 @@
+.head-services {
+  display: flex;
+  justify-content: center;
+  .contact-services {
+    display: flex;
+    background-color: #000000;
+    width: 1230px;
+    justify-content: center;
+    padding-top: 38px;
+    .phone-services {
+      background-image: url("~/public/img/icons-phone-2.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      padding-right: 10px;
+      background-size: 20px 20px;
+      width: 235px;
+    }
+    .locate-services {
+      background-image: url("~/public/img/icons-compas-2.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      padding-right: 40px;
+      background-size: 20px 20px;
+    }
+    .open-services {
+      background-image: url("~/public/img/icons-whatch-2.png");
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-size: 20px 20px;
+    }
+    .link-services {
+      color: #fefefe;
+      text-decoration: none;
+    }
+    .text-service {
+      color: #5c5c5c;
+    }
+  }
+  .social-services {
+    width: 670px;
+    background-color: #fac564;
+    display: flex;
+    align-items: center;
+    .twitter-services {
+      padding-left: 66px;
+    }
+    .facebook-services {
+      padding-left: 30px;
+    }
+    .instagram-services {
+      padding-left: 30px;
+    }
+  }
+}
+
+.main-services {
+  display: flex;
+  height: 470px;
+  .img-about-services-1 {
+    width: 946px;
+    height: 470px;
+  }
+  .about-services {
+    background-image: url("~/public/img/bg_4.jpg");
+    background-repeat: no-repeat;
+    width: 55%;
+    max-height: 470px;
+    .caption-h3{
+      font-size: 34px;
+      font-weight: 200;
+      margin: 0;
+      padding: 100px 0 0 95px;
+      color: #ffffff;
+      text-transform: uppercase;
+      span {
+        color: #fac564;
+        background-image: url("~/public/img/pizza-icon.png");
+        background-repeat: no-repeat;
+        padding-left: 35px;
+      }
+    }
+    .title {
+      line-height: 30px;
+      margin: 0;
+      padding: 48px 100px 0 95px;
+      color: #5c5c5c;
+    }
+  }
+}
+
+.footer-services {
+  background-image: url("~/public/img/food.png");
+  width: 1900px;
+  height: 816px;
+  .our-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .our-services-h3 {
+      font-size: 28px;
+      font-weight: 200;
+      padding: 126px 0 50px 0;
+      margin: 0;
+      color: #010100;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .our-title {
+      width: 640px;
+      margin: 0 auto;
+      color: #8a651f;
+      text-align: center;
+      justify-content: center;
+      line-height: 30px;
+  }
+}
+.card-services{
+  display: flex;
+  justify-content: center;
+  margin-top: 98px;
+  .card-item {
+    width: 370px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 60px;
+    &:last-child{
+      margin-right: 0;
+    }
+    .icon-our-1{
+      background-image: url("~/public/img/icon-1.png");
+      background-repeat: no-repeat;
+      background-size: 112px 112px;
+      background-position: center;
+      padding: 57px 0;
+    }
+    .icon-our-2 {
+      background-image: url("~/public/img/icon-2.png");
+      background-repeat: no-repeat;
+      background-size: 112px 112px;
+      background-position: center;
+      padding: 57px 0;
+    }
+    .icon-our-3 {
+      background-image: url("~/public/img/icon-3.png");
+      background-repeat: no-repeat;
+      background-size: 112px 112px;
+      background-position: center;
+      padding: 57px 0;
+    }
+    .our-services-h4 {
+      font-size: 24px;
+      font-weight: 200;
+      color: #010100;
+      text-transform: uppercase;
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
+    .our-title {
+      color: #8a651f;
+      margin: 0
+    ;
+    }
+  }
+}
+}
