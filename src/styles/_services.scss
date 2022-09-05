@@ -99,8 +99,73 @@
   }
 }
 .footer-services {
-  display: flex;
   background-image: url("~/public/img/food.png");
   width: 1900px;
   height: 816px;
+  .our-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .our-services-h3 {
+      font-size: 28px;
+      font-weight: 200;
+      padding: 126px 0 50px 0;
+      margin: 0;
+      color: #010100;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .our-title {
+      width: 640px;
+      margin: 0 auto;
+      color: #8a651f;
+      text-align: center;
+      justify-content: center;
+      line-height: 30px;
+  }
+}
+.card-services{
+  display: flex;
+  justify-content: center;
+  margin-top: 98px;
+  .card-item {
+    width: 370px;
+    text-align: center;
+    line-height: 30px;
+    .icon-our-1{
+      background-image: url("~/public/img/icon-1.png");
+      background-repeat: no-repeat;
+      background-size: 112px 112px;
+      background-position: center;
+      padding: 57px 0;
+    }
+    .icon-our-2 {
+      background-image: url("~/public/img/icon-2.png");
+      background-repeat: no-repeat;
+      background-size: 112px 112px;
+      background-position: center;
+      padding: 57px 0;
+    }
+    .icon-our-3 {
+      background-image: url("~/public/img/icon-3.png");
+      background-repeat: no-repeat;
+      background-size: 112px 112px;
+      background-position: center;
+      padding: 57px 0;
+    }
+    .our-services-h4 {
+      font-size: 24px;
+      font-weight: 200;
+      color: #010100;
+      text-transform: uppercase;
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
+    .our-title {
+      color: #8a651f;
+      margin: 0
+    ;
+    }
+  }
+}
 }
