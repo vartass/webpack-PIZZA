@@ -42,31 +42,17 @@
     display: flex;
     align-items: center;
     .twitter-services {
-      background-image: url("~/public/img/icons8-twitter-24.png");
-      background-repeat: no-repeat;
-      background-size: 20px 20px;
-      padding: 20px 10px;
-      margin-top: 20px;
-      margin-left: 70px;
+      padding-left: 66px;
     }
     .facebook-services {
-      background-image: url("~/public/img/icons8-facebook-f-48.png");
-      background-repeat: no-repeat;
-      background-size: 20px 20px;
-      padding: 20px 10px;
-      margin-top: 20px;
-      margin-left: 20px;
+      padding-left: 30px;
     }
     .instagram-services {
-      background-image: url("~/public/img/icons8-instagram-24.png");
-      background-repeat: no-repeat;
-      background-size: 20px 20px;
-      padding: 20px 10px;
-      margin-top: 20px;
-      margin-left: 20px;
+      padding-left: 30px;
     }
   }
 }
+
 .main-services {
   display: flex;
   height: 470px;
@@ -101,6 +87,7 @@
     }
   }
 }
+
 .footer-services {
   background-image: url("~/public/img/food.png");
   width: 1900px;
